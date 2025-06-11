@@ -43,8 +43,10 @@
     background: #fff;
     padding:1.2rem 0; */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  }
-  
+    position: sticky;
+    z-index: 50;
+    top: 0;
+}
   header h1 {
     font-size: 27px;
     color: #1a1a1a;
