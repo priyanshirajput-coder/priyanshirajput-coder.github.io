@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanshi</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Priyanshi Rajput | Full Stack Developer Portfolio with PHP, HTML, CSS, and Product Customization Projects.">
+  <meta name="keywords" content="Full Stack Developer, Odoo, PHP, Web Developer Portfolio, Vansh Rajpoot">
+  <meta name="author" content="Priyanshi Rajput">
+</head>
+<body>
+  <header>
+    <div class="container_fluid">
+    <div class="container"> 
+     <div class="main_title">
+      <h1>Priyanshi Rajput</h1>
+      <p>Full Stack web Developer</p>
+    </div>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+      </nav>
+    </div>
+    </div>
+  </header>
+
+  <!--
+  <section class="intro">
+    <img src="images/1695350379853.jpg" alt="Profile" class="profile-img">
+    <h1>Hello, I'm <span class="highlight">Priyanshi Rajput</span></h1>
+    <p>I'm a passionate developer who loves building beautiful and functional web applications.</p>
+  </section> 
+  -->
+
+  <section class="intro">
+    <div class="rain"></div>
+    <img src="images/1695350379853.jpg" alt="Profile" class="profile-img">
+    <h1>Hello, I'm <span class="highlight">Priyanshi Rajput</span></h1>
+    <p>
+      I'm a passionate developer who loves building beautiful<br>
+      and functional web applications.
+    </p>
+  </section>
+  
+  
+
+  <section class="about">
+    <div class="container_fluid">
+    <div class="container">
+      <h1>About Me</h1>
+      <p>I am a web developer with a strong foundation in HTML, CSS, JavaScript, and modern frameworks. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+        
+    </div>
+</div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container_fluid">
+    <div class="container">
+      <h1>Skills & Experience</h1>
+      <p>I have a knowledge of HTML, CSS, PHP, wordpress.....</p>
+        <div class="skill_block">
+            <ul class="list-disc">
+                <li><strong>Frontend:</strong> HTML CSS</li>
+                <li><strong>Backend:</strong> PHP</li>
+                <li><strong>ERP Systems:</strong> Odoo (custom modules, backend logic, web controllers)</li>
+            
+            </ul>
+
+            <ul class="list-disc">
+                <li><strong>Database:</strong> MySQL</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+            </ul>
+        </div>
+      
+        
+    </div>
+</div>
+  </section>
+
+
+  <section class="award" id="certifications">
+    <div class="container_fluid">
+    
+        <div class="container">
+      <h1>Certificate & Awards</h1>
+      <div class="image_container">
+        <img src="images/image.png" alt="image1">
+        <img src="images/six.jpeg" alt="image2">
+       
+        
+      </div>
+      
+         </div>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <div class="container_fluid">
+    
+        <div class="container">
+      <h1>My Projects</h1>
+      <p>
+        Projects attached soon............................
+
+        All is well
+        
+      </p>
+      <div class="image_container">
+        <img src="images/image.png" alt="image1">
+        <img src="images/six.jpeg" alt="image2">
+       
+        
+      </div>
+         </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="container_fluid">
+      <h1>Contacts</h1>
+      <div class="container">
+      <div class="">
+      <h1>
+        Get In Touch
+
+Use this form to get in contact with us and let us know how we can help. 
+      </h1>
+      <div class="skill-block">
+        <ul class="list-disc">
+            <li><strong>Email:</strong> <a href="mailto:pr1814167@gmail.com">pr1814167@gmail.com</a></li>
+            <li><strong>Phone:</1234567890><a href="tel:xyz">xyz</a></li>
+            <li><strong>WhatsApp:</strong><a href="https://wa.me/xyz" target="_blank">xyz</a></li>
+        </ul>
+      </div>
+      </div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeKRyohrC2MFJVJBJFHszCAo1za6X4kTVOZUr08M11tP69bRQ/viewform?embedded=true" width="640" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
+    </div>
+  </section>
+  <div class="footer">
+    © 2025 Priyanshi Rajput... All rights reserved. 
+    </div>
+
+    <script>
+      const rainContainer = document.querySelector('.rain');
+    
+      for (let i = 0; i < 100; i++) {
+        const drop = document.createElement('div');
+        drop.classList.add('drop');
+        drop.style.left = `${Math.random() * 100}%`;
+        drop.style.animationDuration = `${0.5 + Math.random() * 0.5}s`;
+        drop.style.animationDelay = `${Math.random() * 5}s`;
+        rainContainer.appendChild(drop);
+      }
+    </script>
+    
+</body>
+</html>
