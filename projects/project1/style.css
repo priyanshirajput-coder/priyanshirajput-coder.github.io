@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+   background-color: grey;
+}
+
+ .header{
+    background: blue;
+    font-size: 5vh;
+    font-weight: 100vh;
+    color:azure;
+    padding: 2vh;
+    text-align: center;
+ }
+ .container{
+    background:white;
+    margin: 2vh;
+
+ }
+ .image-container
+ img{
+    width:30vh;
+    height:30vh;
+    margin:5vh 5vh 5vh 5vh;
+
+ }
+ .content
+ h2,p{
+    padding:0.5rem;
+    line-height: 1.2rem;
+    
+ }
+ .container-b{
+    background:white;
+    margin:2vh;
+ }
+ .sub-content
+ h2{
+    padding:0.5rem ;
+ 
+ }.sub-content
+ ul{
+   padding-left:1.5rem;
+   padding-bottom: 0.5rem;
+   line-height:1.2rem;
+ }
+ 
+ .footer{
+   background: blue;
+   font-size:2vh;
+   color:azure;
+   text-align:center;
+   padding: 0.2rem;
+ }
+ 
+
+ 
+ 

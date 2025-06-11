@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yummy Navbar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav class="navbar" id="navbar">
+  <a href="#" class="logo">Yummy.</a>
+
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+
+  <div class="nav-links">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Menu</a>
+    <a href="#">Events</a>
+    <a href="#">Chefs</a>
+    <a href="#">Gallery</a>
+    <a href="#">Dropdown ▼</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <a href="#" class="cta">Book a Table</a>
+</nav>
+
+<script>
+  const nav = document.getElementById('navbar');
+  const toggle = document.getElementById('hamburger');
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('responsive');
+  });
+</script>
+
+<main>
+  <section class="hero">
+            <div>
+                <h1>Enjoy Your Healthy Delicious Food</h1>
+                <p>Talented designers making websites with Bootstrap</p>
+                <a href="#" class="btn-primary">Book a Table</a>
+                <a href="#" class="btn-video">▶ Watch Video</a>
+              </div>
+              <img src="images/hero-img.png" alt="Delicious food">
+            </section>
+</main>
+
+</body>
+</html>

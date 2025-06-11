@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: green;
+    text-align: center;
+}
+.header h1{
+    font-size: 2rem;
+    color:aliceblue;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+li{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+}
+.header h5{
+    font-size: 0.8rem;
+    color: aliceblue;
+    padding-bottom: 1rem;
+}
+.navbar{
+    background:black;
+    
+}
+.navlist{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color:white;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.navlinks:hover {
+    color: skyblue;
+    text-decoration: underline;
+}
+.navlinks {
+    transition: all 0.3s ease-in-out;
+    color:white;
+  }
+  
+
+
+
+.main-container{
+    background: aliceblue;
+    margin: 2rem;
+
+}
+.main-container h2{
+    padding:1.3rem;
+    color:skyblue;
+
+}
+.main-container p{
+    padding: 1.2rem;
+    line-height: 1.6rem;
+}
+.content-container{
+    margin:2rem;
+    background: aliceblue;
+}
+.content-container h2{
+    padding: 1.3rem;
+    color:skyblue;
+}
+table{
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  display: block;
+  overflow: auto;
+}
+th,td{
+    padding:1rem;
+    border:1px solid #ddd;
+    text-align:left;
+}
+th{
+    background-color: #f1f1f1;
+}
+@media (max-width: 300px) {
+    .navlist {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    table, thead, tbody, th, td, tr {
+      display: block;
+    }
+  
+    th {
+      background-color: transparent;
+      font-weight: bold;
+    }
+  
+    td {
+      border: none;
+      border-bottom: 1px solid #ddd;
+      padding-left: 50%;
+      position: relative;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      font-weight: bold;
+    }
+  
+    tr {
+      margin-bottom: 15px;
+    }
+  
+}
