@@ -217,6 +217,11 @@
     list-style: none;
 
   }
+  @media (max-width: 900px) {
+    .image_container {
+      flex-wrap: wrap;
+    }
+  }
   .contact .container{
     display: flex;
     justify-content: space-between;
