@@ -200,7 +200,7 @@
     padding-bottom: 2rem;
   }
   .contact{
-    background:grey;
+    background: linear-gradient(rgb(227, 242, 253), rgb(255, 255, 255));
     margin-top: 4rem;
   }
   .contact h1{
